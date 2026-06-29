@@ -84,9 +84,9 @@ export function Sidebar({
         </nav>
 
         <div className="cz-side-foot">
-          {totalCount} links en total
+          {totalCount} links · {navItems.length - 1} categorías
           <br />
-          Pásame tus URLs y las lleno.
+          Centralizador de proyectos · FONPLATA
         </div>
       </div>
     </aside>
