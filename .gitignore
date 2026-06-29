@@ -4,6 +4,10 @@ dist/
 dist-ssr/
 .vite/
 
+# Artefactos de build de TypeScript
+*.tsbuildinfo
+vite.config.d.ts
+
 # Sistema / editor
 .DS_Store
 *.local
