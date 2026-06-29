@@ -539,6 +539,11 @@ input::placeholder {
     min-height: 44px;
   }
 
+  .cz-link,
+  .cz-link-empty {
+    min-height: 44px;
+  }
+
   .cz-side-foot {
     margin-top: 0;
   }
@@ -575,10 +580,6 @@ input::placeholder {
     margin-top: 11px;
   }
 
-  .cz-link,
-  .cz-link-empty {
-    min-height: 44px;
-  }
 }
 
 @media (max-width: 380px) {

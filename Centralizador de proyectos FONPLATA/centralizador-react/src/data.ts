@@ -17,6 +17,10 @@ export const data: Category[] = [
             url: "https://ricardos-macbook-pro.tailb407e9.ts.net/",
             monitor: true,
           },
+          {
+            name: "Presentación a Inversores",
+            url: "https://fonplata-investors-production.up.railway.app",
+          },
           { name: "Proyecto 1", url: "" },
           { name: "Proyecto 2", url: "" },
           { name: "Proyecto 3", url: "" },
