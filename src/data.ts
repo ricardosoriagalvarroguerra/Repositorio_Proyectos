@@ -1,8 +1,9 @@
 import type { Category } from "./types";
 
 /**
- * Datos del centralizador. Rellena el campo `url` de cada proyecto cuando
- * tengas los enlaces — los que estén vacíos se muestran como "vacío".
+ * Datos del centralizador. Para agregar un proyecto, sumá un objeto
+ * `{ name, url }` al grupo correspondiente (opcional: `monitor: true` para
+ * mostrar la luz de estado en vivo).
  */
 export const data: Category[] = [
   {
@@ -21,10 +22,6 @@ export const data: Category[] = [
             name: "Presentación a Inversores",
             url: "https://fonplata-investors-production.up.railway.app",
           },
-          { name: "Proyecto 1", url: "" },
-          { name: "Proyecto 2", url: "" },
-          { name: "Proyecto 3", url: "" },
-          { name: "Proyecto 4", url: "" },
         ],
       },
       {
@@ -42,10 +39,6 @@ export const data: Category[] = [
             name: "Sectores MDB's",
             url: "https://sectoresmdbsfonp.streamlit.app",
           },
-          { name: "Proyecto 1", url: "" },
-          { name: "Proyecto 2", url: "" },
-          { name: "Proyecto 3", url: "" },
-          { name: "Proyecto 4", url: "" },
         ],
       },
     ],
@@ -56,12 +49,7 @@ export const data: Category[] = [
     groups: [
       {
         name: null,
-        links: [
-          { name: "Proyecto 1", url: "" },
-          { name: "Proyecto 2", url: "" },
-          { name: "Proyecto 3", url: "" },
-          { name: "Proyecto 4", url: "" },
-        ],
+        links: [],
       },
     ],
   },
@@ -80,10 +68,6 @@ export const data: Category[] = [
             name: "ATLAS",
             url: "https://mastermindsatlas-production.up.railway.app",
           },
-          { name: "Proyecto 1", url: "" },
-          { name: "Proyecto 2", url: "" },
-          { name: "Proyecto 3", url: "" },
-          { name: "Proyecto 4", url: "" },
         ],
       },
     ],
