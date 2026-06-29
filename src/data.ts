@@ -36,6 +36,10 @@ export const data: Category[] = [
             url: "https://fronttablerobol-production.up.railway.app",
           },
           {
+            name: "Tablero Inteligente URU",
+            url: "https://fronttablerouru-production.up.railway.app",
+          },
+          {
             name: "Sectores MDB's",
             url: "https://sectoresmdbsfonp.streamlit.app",
           },
