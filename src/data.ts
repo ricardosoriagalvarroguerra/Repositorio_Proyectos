@@ -22,6 +22,10 @@ export const data: Category[] = [
             name: "Presentación a Inversores",
             url: "https://fonplata-investors-production.up.railway.app",
           },
+          {
+            name: "Repositorio COF",
+            url: "https://cofrepo-production.up.railway.app/#/login",
+          },
         ],
       },
       {
